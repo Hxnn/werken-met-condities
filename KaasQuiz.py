@@ -9,7 +9,7 @@ if Kaas == "y":
             print('Emmenthaler')
         else:
             print('Leerdammer')
-    elif Gaten == "n":
+    else:
         Hard = input('Is de kaas hard als een steen? (y/n) ')
         if Hard == "y":
             print('Pammigiano Reggiano')
@@ -23,7 +23,7 @@ if Kaas == "n":
             print('Bleu de Rochbaron')
         else:
             print("Foume d'Ambert")
-    elif Schimmels == "n":
+    else:
         Korst2 = input('Heeft de kaas een korst? (y/n) ')
         if Korst2 == "y":
             print('Camembert')
